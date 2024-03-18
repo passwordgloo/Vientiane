@@ -19,7 +19,6 @@ export default defineConfig({
     nav: navbar,
     sidebar: sidebar,
     logo: '/images/logo.png',
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/passwordgloo' }
     ],
