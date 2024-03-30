@@ -9,7 +9,14 @@ export default defineConfig({
   description: "Road to code",
   markdown: {
     lineNumbers: true,
-    math:true
+    math:true,
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '折叠内容'
+    }
   },
   head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
   lastUpdated: true, 
@@ -20,7 +27,7 @@ export default defineConfig({
     sidebar: sidebar,
     logo: '/images/logo.png',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/passwordgloo' }
+      { icon: 'github', link: 'https://github.com/passwordgloo/vientiane' }
     ],
     search: {
       provider: 'local',

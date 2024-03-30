@@ -66,7 +66,7 @@ export const sidebar = {
                 { text: '算法学习（1）', link: '/c/5.md'},
                 { text: '算法学习（2）', link: '/c/6.md'},
                 { text: '顺序程序设计（1）', link: '/c/7.md'},
-                { text: '顺序程序设计（1）', link: '/c/8.md'},
+                { text: '顺序程序设计（2）', link: '/c/8.md'},
                 { text: '选择程序设计', link: '/c/9.md'},
                 { text: '循环结构程序', link: '/c/10.md'},
                 { text: '数组（1）', link: '/c/11.md'},
