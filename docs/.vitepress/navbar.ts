@@ -12,9 +12,14 @@ export const navbar = [
         ]
     },
     {
-        text: '语言',
+        text: '软件',
         items: [
-            { text: 'VBA', link: '/vba/' },
+            { text: 'Excel', link: '/vba/' },
+        ]
+    },
+    {
+        text: '编程',
+        items: [
             { text: 'C', link: '/c/1.md' },
         ]
     },

@@ -18,14 +18,14 @@ export default defineConfig({
       detailsLabel: '折叠内容'
     }
   },
-  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   lastUpdated: true, 
   outDir: '../dist',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: navbar,
     sidebar: sidebar,
-    logo: '/images/logo.png',
+    logo: '/logo.png',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/passwordgloo/vientiane' }
     ],

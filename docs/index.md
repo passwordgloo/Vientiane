@@ -7,7 +7,7 @@ hero:
   text: "Road 2 code"
   tagline: 一粒阳光照肺腑，森罗万象罗心胸
   image:
-      src: /images/logo.png
+      src: /logo.png
       alt: 'Vientiane'
   actions:
     - theme: brand

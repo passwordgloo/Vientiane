@@ -62,7 +62,7 @@ var config_default = defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: navbar,
     sidebar,
-    logo: "/images/vientiane.png",
+    logo: "/vientiane.png",
     socialLinks: [
       { icon: "github", link: "https://github.com/passwordgloo" }
     ],

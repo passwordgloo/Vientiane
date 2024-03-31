@@ -45,12 +45,25 @@ export const sidebar = {
     ],
     '/vba/': [
         {
-            text: 'VBA',
+            text: 'Excel',
             collapsed: false,
             items: [
-                { text: 'for循环', link: '/vba/1.md' },
-                { text: 'if判断', link: '/vba/2.md' },
-                { text: '操作工作表', link: '/vba/3.md' },
+                {
+                    text:'公式',
+                    items:[          
+                        { text: 'for循环', link: '/vba/1.md' },
+                        { text: 'if判断', link: '/vba/2.md' },
+                        { text: '操作工作表', link: '/vba/3.md' },
+                    ]
+                },
+                {
+                    text:'VBA',
+                    items:[          
+                        { text: 'for循环', link: '/vba/1.md' },
+                        { text: 'if判断', link: '/vba/2.md' },
+                        { text: '操作工作表', link: '/vba/3.md' },
+                    ]
+                }
             ]
         }
     ],
