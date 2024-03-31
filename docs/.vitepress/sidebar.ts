@@ -49,11 +49,12 @@ export const sidebar = {
             collapsed: false,
             items: [
                 {
-                    text:'公式',
-                    items:[          
-                        { text: 'for循环', link: '/vba/1.md' },
-                        { text: 'if判断', link: '/vba/2.md' },
-                        { text: '操作工作表', link: '/vba/3.md' },
+                    text:'介绍',
+                    items:[
+                        { text: '页面背景与工具栏', link: 'https://doc.iglooblog.top/excel/' },
+                        { text: '超级表', link: 'https://doc.iglooblog.top/excel/1.html' },
+                        { text: '单元格格式', link: 'https://doc.iglooblog.top/excel/2.html' },
+                        { text: '函数', link: 'https://doc.iglooblog.top/excel/3.html' },
                     ]
                 },
                 {
