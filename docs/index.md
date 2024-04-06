@@ -7,7 +7,7 @@ hero:
   text: "Road 2 code"
   tagline: 一粒阳光照肺腑，森罗万象罗心胸
   image:
-      src: /logo.png
+      src: /logo.svg
       alt: 'Vientiane'
   actions:
     - theme: brand
@@ -18,9 +18,9 @@ hero:
       link: /about
 
 features:
-  - icon: 📖
-    title: 教程
-    details: 搜罗各地编程语言教程
+  - icon: 📝
+    title: 记录
+    details: 整理个人学习历程
 
   - icon: 🤔
     title: 练习
@@ -34,10 +34,13 @@ features:
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-name-background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  --vp-home-hero-image-background-image:  linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   --vp-home-hero-image-filter: blur(44px);
+  --vp-c-indigo-3:#08E7E7;
 }
+
+
 
 @media (min-width: 640px) {
   :root {
@@ -51,4 +54,3 @@ features:
   }
 }
 </style>
-

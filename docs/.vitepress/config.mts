@@ -25,7 +25,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: navbar,
     sidebar: sidebar,
-    logo: '/logo.png',
+    logo: '/logo.svg',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/passwordgloo/vientiane' }
     ],

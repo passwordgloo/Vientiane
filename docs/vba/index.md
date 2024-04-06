@@ -14,7 +14,7 @@ Mac 的Numbers 表格没有vba功能
 
 文件>选项>自定义功能区 ☑️开发工具
 
-![](/excel/FC8710C3-F644-4B70-A4CC-E58DEEAB9CDA.jpeg)
+![](/excel/截屏2024-04-0620.05.35.png)
 
 #### Excel 2007
 
