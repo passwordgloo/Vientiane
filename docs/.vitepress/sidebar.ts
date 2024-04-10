@@ -64,6 +64,7 @@ export const sidebar = {
                         { text: 'if判断', link: '/vba/2.md' },
                         { text: '操作工作表', link: '/vba/3.md' },
                         { text: '操作工作簿', link: '/vba/4.md' },
+                        { text: '操作单元格', link: '/vba/5.md' },
                     ]
                 }
             ]
