@@ -18,6 +18,14 @@ hero:
       link: /about
 
 features:
+  - icon: 🔍
+    title: 索引
+    details: 快速搜索遗忘知识点
+
+  - icon: ⚡️
+    title: 快速
+    details: vitepress驱动，快速访问文档
+
   - icon: 📝
     title: 记录
     details: 整理个人学习历程
@@ -35,14 +43,13 @@ features:
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  --vp-home-hero-image-background-image:  linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  --vp-home-hero-image-background-image:  linear-gradient(120deg, #6feefb 0%, #8ce2a8 100%);
   --vp-home-hero-image-filter: blur(44px);
-  --vp-c-indigo-3:#08E7E7;
+  --vp-c-indigo-3:#28d3ce;
+  --vp-c-indigo-2:#12afab;
 }
 
-
-
-@media (min-width: 640px) {
+  @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);
   }
@@ -53,4 +60,8 @@ features:
     --vp-home-hero-image-filter: blur(68px);
   }
 }
+
 </style>
+
+
+

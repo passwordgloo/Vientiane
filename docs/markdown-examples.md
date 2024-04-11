@@ -4,37 +4,62 @@ This page demonstrates some of the built-in markdown extensions provided by Vite
 
 ## Syntax Highlighting
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
-
-**Input**
-
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
+````js{4}
+// config.ts
+export default defineConfig({
+  // ...
+  markdown: {
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
     }
   }
-}
-```
+  // ...
+})
 ````
 
-**Output**
-
-```js{4}
+```js
 export default {
   data () {
     return {
-      msg: 'Highlighted!'
+      msg: 'Focused!' // [!code focus]
     }
   }
 }
 ```
 
-## Custom Containers
+### Diffs
 
-**Input**
+```js
+export default {
+  data () {
+    return {
+      msg: 'Removed' // [!code --]
+      msg: 'Added' // [!code ++]
+    }
+  }
+}
+```
+
+### Errors & warnings
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Error', // [!code error]
+      msg: 'Warning' // [!code warning]
+    }
+  }
+}
+```
+
+
+
+## Custom Containers
 
 ```md
 ::: info
@@ -58,26 +83,31 @@ This is a details block.
 :::
 ```
 
-**Output**
+## Code-group
 
-::: info
-This is an info box.
-:::
+::: code-group
 
-::: tip
-This is a tip.
-:::
+```js [config.js]
+/**
+ * @type {import('vitepress').UserConfig}
+ */
+const config = {
+  // ...
+}
 
-::: warning
-This is a warning.
-:::
+export default config
+```
 
-::: danger
-This is a dangerous warning.
-:::
+```ts [config.ts]
+import type { UserConfig } from 'vitepress'
 
-::: details
-This is a details block.
+const config: UserConfig = {
+  // ...
+}
+
+export default config
+```
+
 :::
 
 ## More

@@ -40,6 +40,9 @@ export const sidebar = {
                 { text: '数据结构与算法', link: '/js/7.md' },
                 { text: '函数', link: '/js/8.md' },
                 { text: '对象', link: '/js/9.md' },
+                { text: '进阶 - 第1天', link: '/js/10.md' },
+                { text: '进阶 - 第2天', link: '/js/11.md' },
+                { text: '进阶 - 第3天', link: '/js/12.md' },
             ]
         }
     ],
