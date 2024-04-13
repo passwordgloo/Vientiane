@@ -68,6 +68,14 @@ export const sidebar = {
                         { text: '操作工作表', link: '/vba/3.md' },
                         { text: '操作工作簿', link: '/vba/4.md' },
                         { text: '操作单元格', link: '/vba/5.md' },
+                        { text: 'VBA事件与典型案例', link: '/vba/6.md' },
+                        { text: '在VBA中使用公式', link: '/vba/7.md' },
+                        { text: '自定义函数', link: '/vba/8.md' },
+                        { text: 'Dir函数多表合并', link: '/vba/9.md' },
+                        { text: '使用数组', link: '/vba/10.md' },
+                        { text: '使用Active X控件', link: '/vba/11.md' },
+                        { text: '窗体与控件', link: '/vba/12.md' },
+                        { text: '用户信息交互', link: '/vba/13.md' },
                     ]
                 }
             ]

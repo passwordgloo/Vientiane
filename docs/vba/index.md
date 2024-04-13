@@ -6,9 +6,17 @@
 
 ## Vba开启
 
-:::danger
+:::warning 仅限WPS和Office
 Mac 的Numbers 表格没有vba功能
 :::
+
+::: danger 是否启用宏
+
+除非是自己或者受信任的人写的vba代码，否则不建议启用宏
+
+:::
+
+![](/excel/截屏2024-04-1222.30.04.png)
 
 #### Excel 2010 及以上版本
 
@@ -49,3 +57,4 @@ Mac 的Numbers 表格没有vba功能
 :::
 
 ![](/excel/截屏2024-04-0821.54.15.png)
+
