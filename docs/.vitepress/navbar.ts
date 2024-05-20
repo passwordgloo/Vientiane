@@ -8,7 +8,8 @@ export const navbar = [
         items: [
             { text: 'HTML', link: '/html/1.md' },
             { text: 'CSS', link: '/css/1.md' },
-            { text: 'Javascript', link: '/js/1.md' }
+            { text: 'Javascript', link: '/js/1.md' },
+            { text: 'Vue', link: '/vue/' }
         ]
     },
     {

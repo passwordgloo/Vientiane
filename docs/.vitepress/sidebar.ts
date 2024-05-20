@@ -125,4 +125,13 @@ export const sidebar = {
             ]
         }
     ],
+    '/vue/': [
+        {
+            text: 'Vue',
+            collapsed: false,
+            items: [
+                { text: 'vite', link: '/vue/' },
+            ]
+        }
+    ],
 }
